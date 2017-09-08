@@ -1,0 +1,10 @@
+com/avenunecode/dao/OrderDAO.class
+com/avenuecode/service/OrderService.class
+com/avenuecode/model/Product.class
+com/avenuecode/model/OrderItems.class
+com/avenunecode/dao/HelperDAO.class
+com/avenuecode/model/ProductCatalog.class
+com/avenunecode/controller/ProductController.class
+com/avenunecode/dao/ProductDAO.class
+com/avenuecode/service/ProductService.class
+com/avenuecode/model/Order.class

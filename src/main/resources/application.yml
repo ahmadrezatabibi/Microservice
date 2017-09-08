@@ -1,0 +1,22 @@
+#JPA configuration place here
+spring:
+  datasource:
+    url: jdbc:h2:mem:test;db_close_on_exit=false
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: 
+  data:
+    jpa:
+      repositories:
+        enabled: true
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    show-sql: true
+    
+    
+#server configuration
+server:
+  port: ${appPort:8080}
+
+# Spring MVC dispatcher servlet path
+server.servlet-path: /
